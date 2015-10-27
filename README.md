@@ -1,1 +1,1 @@
-# Distributed_and_Parallel
+pthreads, MPI, and CUDA programming assignments 
