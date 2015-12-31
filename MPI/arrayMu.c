@@ -75,7 +75,7 @@ if(myid ==0) {
         sum0 = 0;
          for(j=0;j<dimension;j++) { 
             
-            sum0 += A[myid][j] * D[j]; //multiply the current row by the first column. Will always only multiply the first column
+            sum0 += A[myid][j] * D[j]; //multiply the current row by the its column. 
             if(j == dimension - 1) {
                 C[myid][curCol] = sum0;
                 //printf("C[%d][%d] is %d\n",myid,curCol, sum0);
